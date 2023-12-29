@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesMachineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesPortController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/HashingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/javafxml/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/javafxml/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/hello-view.fxml" afterDir="false" />
+    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Added Models, Controllers, And basic classes needed">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesPort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703891537932</updated>
-      <workItem from="1703891542855" duration="1979000" />
+      <workItem from="1703891542855" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1703892224671</created>
@@ -80,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703892224673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Models, Controllers, And basic classes needed">
+      <created>1703893652434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703893652434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Added Models, Controllers, And basic classes needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Models, Controllers, And basic classes needed" />
   </component>
 </project>
