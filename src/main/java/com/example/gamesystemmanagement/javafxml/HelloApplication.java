@@ -1,4 +1,4 @@
-package com.example.gamesystemmanagement;
+package com.example.gamesystemmanagement.javafxml;
 
 import njavafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.gamesystemmanagement/com.example.gamesystemmanagement.HelloApplication
+                                com.example.gamesystemmanagement/com.example.gamesystemmanagement.javafxml.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
