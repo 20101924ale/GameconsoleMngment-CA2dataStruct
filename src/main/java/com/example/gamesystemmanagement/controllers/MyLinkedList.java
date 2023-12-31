@@ -130,6 +130,8 @@ public class MyLinkedList<E> implements Iterable<E> {
             return next;
         }
 
+
+
         public E getContents() {
             return null;
         }

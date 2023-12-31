@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Added Dummy Methods">
+    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Implemented my linked list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703891537932</updated>
-      <workItem from="1703891542855" duration="2652000" />
+      <workItem from="1703891542855" duration="3581000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1703892224671</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703893999511</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented my linked list">
+      <created>1703894278569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703894278570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +110,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Added Models, Controllers, And basic classes needed" />
     <MESSAGE value="Added Dummy Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Dummy Methods" />
+    <MESSAGE value="Implemented my linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented my linked list" />
   </component>
 </project>
