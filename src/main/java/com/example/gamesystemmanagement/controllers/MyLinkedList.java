@@ -1,7 +1,9 @@
 package com.example.gamesystemmanagement.controllers;
 
 import java.util.Iterator;
+import java.util.Locale;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 public class MyLinkedList<E> implements Iterable<E> {
 
@@ -89,6 +91,10 @@ public class MyLinkedList<E> implements Iterable<E> {
             i++;
         }
         return temp;
+    }
+
+    public Stream<Object> stream() {
+        return null;
     }
 
     // Other methods remain unchanged

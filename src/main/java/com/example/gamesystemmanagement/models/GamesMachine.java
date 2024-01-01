@@ -1,8 +1,8 @@
 package com.example.gamesystemmanagement.models;
 
 public class GamesMachine {
-    public String name;
-    public String manufacturer;
+    public static String name;
+    public static String manufacturer;
     public String description;
     public String type;
     public String media;
@@ -21,7 +21,7 @@ public class GamesMachine {
         this.imageURL = imageURL;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
@@ -29,7 +29,7 @@ public class GamesMachine {
         this.name = name;
     }
 
-    public String getManufacturer() {
+    public static String getManufacturer() {
         return manufacturer;
     }
 
