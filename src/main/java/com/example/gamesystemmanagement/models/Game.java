@@ -1,5 +1,7 @@
 package com.example.gamesystemmanagement.models;
 
+import java.util.Objects;
+
 public class Game {
     private String name;
     private String publisher;
@@ -8,6 +10,19 @@ public class Game {
     private String machineDevelopedFor;
     private int releaseYear;
     private String coverImageURL;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Game game = (Game) o;
+        return releaseYear == game.releaseYear && name.equals(game.name) && publisher.equals(game.publisher) && description.equals(game.description) && developer.equals(game.developer) && machineDevelopedFor.equals(game.machineDevelopedFor) && coverImageURL.equals(game.coverImageURL);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, publisher, description, developer, machineDevelopedFor, releaseYear, coverImageURL);
+    }
 
     public String getName() {
         return name;
@@ -65,7 +80,7 @@ public class Game {
         this.coverImageURL = coverImageURL;
     }
 
-    public Game() {
+    public Game(String text, String gameGenreText, String gamePriceText, String gameRatingText, String machineDevelopedForText, int i, String coverImageURLText) {
         this.name = name;
         this.publisher = publisher;
         this.description = description;

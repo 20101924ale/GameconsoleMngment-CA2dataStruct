@@ -11,8 +11,8 @@ public class GamesMachine {
     public String imageURL;
 
     public GamesMachine(String name, String manufacturer, String description, String type, String media, int launchYear, double initialPrice, String imageURL) {
-        this.name = name;
-        this.manufacturer = manufacturer;
+        GamesMachine.name = name;
+        GamesMachine.manufacturer = manufacturer;
         this.description = description;
         this.type = type;
         this.media = media;
@@ -26,7 +26,7 @@ public class GamesMachine {
     }
 
     public void setName(String name) {
-        this.name = name;
+        GamesMachine.name = name;
     }
 
     public static String getManufacturer() {
@@ -34,7 +34,7 @@ public class GamesMachine {
     }
 
     public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+        GamesMachine.manufacturer = manufacturer;
     }
 
     public String getDescription() {
