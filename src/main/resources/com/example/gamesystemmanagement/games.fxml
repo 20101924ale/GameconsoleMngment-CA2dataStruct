@@ -5,22 +5,28 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Label?>
 
 <VBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.gamesystemmanagement.controllers.GameController">
 
     <HBox spacing="10">
-        <ListView fx:id="gameList" prefHeight="200.0" prefWidth="200.0" />
-        <VBox spacing="10">
-            <TextField fx:id="gameName" promptText="Name" />
-            <TextField fx:id="gameGenre" promptText="Genre" />
-            <TextField fx:id="gamePrice" promptText="Price" />
-            <TextField fx:id="gameRating" promptText="Rating" />
-            <TextField fx:id="machineDevelopedFor" promptText="Machine Developed For" />
-            <TextField fx:id="releaseYear" promptText="Release Year" />
-            <TextField fx:id="coverImageURL" promptText="Cover Image URL" />
-        </VBox>
+        <Label text="Game Name:" />
+        <TextField fx:id="gameName" />
+        <Label text="Genre:" />
+        <TextField fx:id="gameGenre" />
+        <Label text="Price:" />
+        <TextField fx:id="gamePrice" />
+        <Label text="Rating:" />
+        <TextField fx:id="gameRating" />
+        <Label text="Machine Developed For:" />
+        <TextField fx:id="machineDevelopedFor" />
+        <Label text="Release Year:" />
+        <TextField fx:id="releaseYear" />
+        <Label text="Cover Image URL:" />
+        <TextField fx:id="coverImageURL" />
     </HBox>
 
     <HBox spacing="10">
@@ -30,5 +36,7 @@
         <Button text="Search" onAction="#onSearchButtonClick" />
         <Button text="Clear" onAction="#onClearButtonClick" />
     </HBox>
+
+    <ListView fx:id="gameList" />
 
 </VBox>

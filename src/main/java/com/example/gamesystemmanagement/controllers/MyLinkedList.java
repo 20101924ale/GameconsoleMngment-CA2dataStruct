@@ -97,6 +97,16 @@ public class MyLinkedList<E> implements Iterable<E> {
         return null;
     }
 
+    public int size() {
+        LinkedNode<E> temp = head;
+        int i = 0;
+        while (temp != null) {
+            temp = temp.getNext();
+            i++;
+        }
+        return i;
+    }
+
     // Other methods remain unchanged
 
     private class MyLinkedListIterator implements Iterator<E> {

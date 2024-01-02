@@ -8,11 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Implemented search and filter methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/games.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/HashingUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesPortController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesPortController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/GameMachine.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -54,6 +58,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "19",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -63,6 +70,14 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.gamesystemmanagement.models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.gamesystemmanagement.javafxml.HelloApplication" />
@@ -92,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703891537932</updated>
-      <workItem from="1703891542855" duration="24425000" />
+      <workItem from="1703891542855" duration="25531000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1703892224671</created>
@@ -150,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704155495185</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented search and filter methods">
+      <created>1704235713944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704235713946</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

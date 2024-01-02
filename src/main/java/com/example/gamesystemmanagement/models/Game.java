@@ -1,5 +1,7 @@
 package com.example.gamesystemmanagement.models;
 
+import com.example.gamesystemmanagement.controllers.MyLinkedList;
+
 import java.util.Objects;
 
 public class Game {
@@ -78,6 +80,26 @@ public class Game {
 
     public void setCoverImageURL(String coverImageURL) {
         this.coverImageURL = coverImageURL;
+    }
+
+    public static void selectionSortByReleaseYear(MyLinkedList<Game> games) {
+        int n = games.size();
+
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < n; j++) {
+                // Compare based on release year
+                if (games.get(j).getReleaseYear() < games.get(minIndex).getReleaseYear()) {
+                    minIndex = j;
+                }
+            }
+
+            // Swap the found minimum element with the element at i
+            Game temp = games.get(minIndex);
+            games.set(minIndex, games.get(i));
+            games.set(i, temp);
+        }
     }
 
     public Game(String text, String gameGenreText, String gamePriceText, String gameRatingText, String machineDevelopedForText, int i, String coverImageURLText) {
