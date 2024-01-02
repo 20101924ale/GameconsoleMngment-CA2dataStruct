@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamesystemmanagement.controllers.GamesMachineController">
+    <center>
+        <HBox spacing="10" alignment="CENTER">
+            <ListView fx:id="gamesListView" />
+            <VBox spacing="5">
+                <TextField fx:id="searchField" promptText="Search" />
+                <TextField fx:id="name" promptText="Name" />
+                <TextField fx:id="manufacturer" promptText="Manufacturer" />
+                <TextField fx:id="description" promptText="Description" />
+                <TextField fx:id="type" promptText="Type" />
+                <TextField fx:id="media" promptText="Media" />
+                <TextField fx:id="launchYear" promptText="Launch Year" />
+                <TextField fx:id="initialPrice" promptText="Initial Price" />
+                <TextField fx:id="imageURL" promptText="Image URL" />
+            </VBox>
+        </HBox>
+    </center>
+    <!-- Add buttons or other UI components as needed -->
+</BorderPane>

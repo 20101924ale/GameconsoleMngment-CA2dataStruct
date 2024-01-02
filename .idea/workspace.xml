@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.99750626" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Created fxml fields, fixed up controller class">
+    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Implemented search and filter methods">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/GameMachine.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesMachineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesMachineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -33,6 +40,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2aElHfBHJ1ztvBllAlfVnjElS0R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,13 +56,35 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "19",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gamesystemmanagement.javafxml.HelloApplication" />
+      <module name="GameSystemManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gamesystemmanagement.javafxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703891537932</updated>
-      <workItem from="1703891542855" duration="11844000" />
+      <workItem from="1703891542855" duration="18979000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1703892224671</created>
@@ -105,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704123157253</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented search and filter methods">
+      <created>1704143745723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704143745723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +167,7 @@
     <MESSAGE value="Added Dummy Methods" />
     <MESSAGE value="Implemented my linked list" />
     <MESSAGE value="Created fxml fields, fixed up controller class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created fxml fields, fixed up controller class" />
+    <MESSAGE value="Implemented search and filter methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented search and filter methods" />
   </component>
 </project>

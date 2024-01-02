@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.gamesystemmanagement.javafxml.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamesystemmanagement.controllers.GamesMachineController">
+    <children>
+        <ListView fx:id="gamesListView" layoutX="40.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" />
+        <TextField fx:id="searchField" layoutX="320.0" layoutY="20.0" onKeyReleased="#handleSearch" promptText="Search..." />
+        <TextField fx:id="name" layoutX="40.0" layoutY="250.0" promptText="Name" />
+        <TextField fx:id="manufacturer" layoutX="40.0" layoutY="280.0" promptText="Manufacturer" />
+        <TextField fx:id="description" layoutX="40.0" layoutY="310.0" promptText="Description" />
+        <TextField fx:id="type" layoutX="40.0" layoutY="340.0" promptText="Type" />
+        <TextField fx:id="media" layoutX="40.0" layoutY="370.0" promptText="Media" />
+        <TextField fx:id="launchYear" layoutX="40.0" layoutY="400.0" promptText="Launch Year" />
+        <TextField fx:id="initialPrice" layoutX="40.0" layoutY="430.0" promptText="Initial Price" />
+        <TextField fx:id="imageURL" layoutX="40.0" layoutY="460.0" promptText="Image URL" />
+
+        <Button layoutX="250.0" layoutY="250.0" mnemonicParsing="false" onAction="#addGamesMachine" text="Add Machine" />
+        <Button layoutX="250.0" layoutY="290.0" mnemonicParsing="false" onAction="#deleteGamesMachine" text="Delete Machine" />
+        <Button layoutX="250.0" layoutY="330.0" mnemonicParsing="false" onAction="#showAllGamesMachinesAdded" text="View All Machines" />
+    </children>
+</AnchorPane>

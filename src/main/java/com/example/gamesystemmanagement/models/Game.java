@@ -65,7 +65,7 @@ public class Game {
         this.coverImageURL = coverImageURL;
     }
 
-    public Game(String name, String publisher, String description, String developer, String machineDevelopedFor, int releaseYear, String coverImageURL) {
+    public Game() {
         this.name = name;
         this.publisher = publisher;
         this.description = description;
