@@ -7,15 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="Made fxml file menu for GamesController">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/javafxml/starfall.css" afterDir="false" />
+    <list default="true" id="7bb62e5d-23c9-48d1-bce6-dc62216685d8" name="Changes" comment="edited main menu and made games port menu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesPortController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/GamesPortController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/Mainmenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/Mainmenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/controllers/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement/models/GamesPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/mainmenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/gamesystemmanagement/mainmenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +60,7 @@
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "19",
     "last_directory_selection": "/Users/alexandradinea/Downloads/Ca 1 Data Structures and Algorithms/GameSystemManagement/src/main/java/com/example/gamesystemmanagement",
+    "last_opened_file_path": "/Users/alexandradinea/Downloads/Ca 1 Data Structures and Algorithms/GameSystemManagement/src/main/java/com/example/gamesystemmanagement",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -75,6 +72,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.gamesystemmanagement.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/gamesystemmanagement" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -115,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703891537932</updated>
-      <workItem from="1703891542855" duration="31079000" />
+      <workItem from="1703891542855" duration="32697000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1703892224671</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704319248275</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edited main menu and made games port menu">
+      <created>1704322177763</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704322177763</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +226,7 @@
     <MESSAGE value="Created fxml fields, fixed up controller class" />
     <MESSAGE value="Implemented search and filter methods" />
     <MESSAGE value="Made fxml file menu for GamesController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made fxml file menu for GamesController" />
+    <MESSAGE value="edited main menu and made games port menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited main menu and made games port menu" />
   </component>
 </project>
