@@ -1,13 +1,13 @@
 package com.example.gamesystemmanagement.models;
 
 public class GamesPort {
-    public Game originalGame;
+    public String originalGame;
     public String newMachine;
     public String portDeveloper;
     public int portReleaseYear;
     public String coverImageURL;
 
-    public GamesPort(Game originalGame, String newMachine, String portDeveloper, int portReleaseYear, String coverImageURL) {
+    public GamesPort(String originalGame, String newMachine, String portDeveloper, int portReleaseYear, String coverImageURL) {
         this.originalGame = originalGame;
         this.newMachine = newMachine;
         this.portDeveloper = portDeveloper;
@@ -15,13 +15,11 @@ public class GamesPort {
         this.coverImageURL = coverImageURL;
     }
 
-    public Game getOriginalGame() {
+    public String getOriginalGame() {
         return originalGame;
     }
 
-    public void setOriginalGame(Game originalGame) {
-        this.originalGame = originalGame;
-    }
+
 
     public String getNewMachine() {
         return newMachine;
@@ -53,5 +51,9 @@ public class GamesPort {
 
     public void setCoverImageURL(String coverImageURL) {
         this.coverImageURL = coverImageURL;
+    }
+
+    public void setOriginalGame(String text) {
+        return;
     }
 }

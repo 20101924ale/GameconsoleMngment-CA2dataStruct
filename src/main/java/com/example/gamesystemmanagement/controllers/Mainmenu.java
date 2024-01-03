@@ -19,14 +19,14 @@ public class Mainmenu {
         }
 
         public void openGameMenu() {
-            openFXML("GameMenu.fxml");
+            openFXML("games.fxml");
         }
 
         public void openGameMachineMenu() {
-            openFXML("GameMachineMenu.fxml");
+            openFXML("gamemachine.fxml");
         }
 
         public void openGamePortMenu() {
-            openFXML("GamePortMenu.fxml");
+            openFXML("gameport.fxml");
         }
 }

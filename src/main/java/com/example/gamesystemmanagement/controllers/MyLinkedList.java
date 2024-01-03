@@ -107,6 +107,18 @@ public class MyLinkedList<E> implements Iterable<E> {
         return i;
     }
 
+    public void set(int minIndex, E game) {
+        LinkedNode<E> temp = head;
+        int i = 0;
+        while (i < minIndex && temp != null) {
+            temp = temp.getNext();
+            i++;
+        }
+        if (temp == null)
+            throw new IndexOutOfBoundsException();
+        temp.setContents(game);
+    }
+
     // Other methods remain unchanged
 
     private class MyLinkedListIterator implements Iterator<E> {
