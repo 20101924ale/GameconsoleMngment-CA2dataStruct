@@ -2,10 +2,15 @@ package com.example.gamesystemmanagement.controllers;
 
 import com.example.gamesystemmanagement.models.Game;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ListView;
-
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import java.io.IOException;
 import java.util.*;
 
 import static java.awt.SystemColor.text;
@@ -177,6 +182,24 @@ public void editGame() {
                 Integer.parseInt(releaseYear.getText()), // Assuming releaseYear is an integer
                 coverImageURL.getText()
         );
+    }
+
+
+
+    @FXML
+    public void navigateToMainMenu(ActionEvent actionEvent) {
+        if (actionEvent.getSource() == gameList) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("path/to/anotherFXML.fxml"));
+                Parent root = loader.load();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root));
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 
     private class GameNode {

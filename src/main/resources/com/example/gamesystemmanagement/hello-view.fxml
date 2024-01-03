@@ -29,6 +29,7 @@
         <Button text="Edit" onAction="#onEditButtonClick" />
         <Button text="Search" onAction="#onSearchButtonClick" />
         <Button text="Clear" onAction="#onClearButtonClick" />
+        <Button text="Go to Another Page" onAction="#navigateToAnotherPage" />
     </HBox>
 
 </VBox>
